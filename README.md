@@ -1,11 +1,9 @@
 # auto-API-analisis
 ## EXPLICACIÓN DE PROCESO DE EXTRACCIÓN DE INFORMACIÓN
 
-1- bucle-for-sh.sh: Ejecuta en un bucle el apipecker incrementando el valor de la variable * 10 >> salida a output-for.log 
+1- npm start > ../automate-analisis/output.log
 
-2- media_de_ejecucion_nBins.sh: Con la salida de la API (npm start >> output.log), se ejecuta un bucle para obtener la suma de los tiempos de ejecución
-
-3- cat output-loop.log | grep -e 'Probando' -e mean: cogemos únicamente el tiempo medio de cada prueba con diferentes valores de la variable 
+2- automated.sh: Ejecuta en un bucle el apipecker incrementando el valor de la variable * 10 >> salida a output-for.log 
 
 Conclusión: obtenemos el tiempo de respuesta medio por llamada del apipecker y el tiempo de ejecución total de la API
 
