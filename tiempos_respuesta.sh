@@ -1,19 +1,14 @@
 #!/bin/bash
-#for (( i=1; $i<=10000000000000000000000; i=$(echo "$i*10" | bc )))
-#do
-#  echo $(echo $i | bc)
-#  echo $i
-#  echo "Probando con $i: " >> output-for.log
-#  echo "\n" >> output-for.log
-#  npx apipecker 1 $1 1 http://localhost:8080/api/v1/stress/1/$i/1 >> output-for.log 
-#done
 i=1
-while (( $i <= 10000000000000000000000 ))
+value=1
+while (( $value <= 22 ))
 do
   echo "Probando con $i: " >> output-for.log
   echo "\n" >> output-for.log
   npx apipecker 1 $1 1 http://localhost:8080/api/v1/stress/1/$i/1 >> output-for.log
+  #echo $i | wc -c
   i=$(echo "$i*10" | bc )
+  value=$(echo $i | wc -c)
 done
 
 echo "Tiempo_Respuesta" >> localhost/test-$1/tiempos_respuesta.csv

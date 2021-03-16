@@ -18,11 +18,4 @@ do
   fi
   count=$[$count +1]
   suma=$(echo "$suma + $line" | bc )
- # echo "CountParam: $countParam"
-  #if [ $countParam -eq -8446744073709551616 ]
-  #then
-  #  sumaUltima=$(echo "$sumaUltima + $line" | bc )
-  #  echo $sumaUltima
-  #fi
 done
-#echo  $sumaUltima | tr "." "," >> localhost/test-$1/tiempos_ejecucion.csv
