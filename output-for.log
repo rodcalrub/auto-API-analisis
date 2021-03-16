@@ -1,0 +1,361 @@
+
+Probando con 1: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 1
+  - Delay: 1
+  - URL: <http://localhost:8080/api/v1/stress/1/1/1>
+Stressing:
+  -> iteration1 completed (1/1 of 1)
+
+Result:
+{
+  "count": 1,
+  "min": 30.277,
+  "max": 30.277,
+  "mean": 30.277,
+  "std": 0
+}
+Probando con 10: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 1
+  - Delay: 1
+  - URL: <http://localhost:8080/api/v1/stress/1/10/1>
+Stressing:
+  -> iteration1 completed (1/1 of 1)
+
+Result:
+{
+  "count": 1,
+  "min": 15.406,
+  "max": 15.406,
+  "mean": 15.406,
+  "std": 0
+}
+Probando con 100: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 1
+  - Delay: 1
+  - URL: <http://localhost:8080/api/v1/stress/1/100/1>
+Stressing:
+  -> iteration1 completed (1/1 of 1)
+
+Result:
+{
+  "count": 1,
+  "min": 16.447,
+  "max": 16.447,
+  "mean": 16.447,
+  "std": 0
+}
+Probando con 1000: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 1
+  - Delay: 1
+  - URL: <http://localhost:8080/api/v1/stress/1/1000/1>
+Stressing:
+  -> iteration1 completed (1/1 of 1)
+
+Result:
+{
+  "count": 1,
+  "min": 17.471,
+  "max": 17.471,
+  "mean": 17.471,
+  "std": 0
+}
+Probando con 10000: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 1
+  - Delay: 1
+  - URL: <http://localhost:8080/api/v1/stress/1/10000/1>
+Stressing:
+  -> iteration1 completed (1/1 of 1)
+
+Result:
+{
+  "count": 1,
+  "min": 15.945,
+  "max": 15.945,
+  "mean": 15.945,
+  "std": 0
+}
+Probando con 100000: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 1
+  - Delay: 1
+  - URL: <http://localhost:8080/api/v1/stress/1/100000/1>
+Stressing:
+  -> iteration1 completed (1/1 of 1)
+
+Result:
+{
+  "count": 1,
+  "min": 16.645,
+  "max": 16.645,
+  "mean": 16.645,
+  "std": 0
+}
+Probando con 1000000: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 1
+  - Delay: 1
+  - URL: <http://localhost:8080/api/v1/stress/1/1000000/1>
+Stressing:
+  -> iteration1 completed (1/1 of 1)
+
+Result:
+{
+  "count": 1,
+  "min": 15.793,
+  "max": 15.793,
+  "mean": 15.793,
+  "std": 0
+}
+Probando con 10000000: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 1
+  - Delay: 1
+  - URL: <http://localhost:8080/api/v1/stress/1/10000000/1>
+Stressing:
+  -> iteration1 completed (1/1 of 1)
+
+Result:
+{
+  "count": 1,
+  "min": 18.099,
+  "max": 18.099,
+  "mean": 18.099,
+  "std": 0
+}
+Probando con 100000000: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 1
+  - Delay: 1
+  - URL: <http://localhost:8080/api/v1/stress/1/100000000/1>
+Stressing:
+  -> iteration1 completed (1/1 of 1)
+
+Result:
+{
+  "count": 1,
+  "min": 15.287,
+  "max": 15.287,
+  "mean": 15.287,
+  "std": 0
+}
+Probando con 1000000000: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 1
+  - Delay: 1
+  - URL: <http://localhost:8080/api/v1/stress/1/1000000000/1>
+Stressing:
+  -> iteration1 completed (1/1 of 1)
+
+Result:
+{
+  "count": 1,
+  "min": 17.745,
+  "max": 17.745,
+  "mean": 17.745,
+  "std": 0
+}
+Probando con 10000000000: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 1
+  - Delay: 1
+  - URL: <http://localhost:8080/api/v1/stress/1/10000000000/1>
+Stressing:
+  -> iteration1 completed (1/1 of 1)
+
+Result:
+{
+  "count": 1,
+  "min": 14.74,
+  "max": 14.74,
+  "mean": 14.74,
+  "std": 0
+}
+Probando con 100000000000: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 1
+  - Delay: 1
+  - URL: <http://localhost:8080/api/v1/stress/1/100000000000/1>
+Stressing:
+  -> iteration1 completed (1/1 of 1)
+
+Result:
+{
+  "count": 1,
+  "min": 16.417,
+  "max": 16.417,
+  "mean": 16.417,
+  "std": 0
+}
+Probando con 1000000000000: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 1
+  - Delay: 1
+  - URL: <http://localhost:8080/api/v1/stress/1/1000000000000/1>
+Stressing:
+  -> iteration1 completed (1/1 of 1)
+
+Result:
+{
+  "count": 1,
+  "min": 15.875,
+  "max": 15.875,
+  "mean": 15.875,
+  "std": 0
+}
+Probando con 10000000000000: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 1
+  - Delay: 1
+  - URL: <http://localhost:8080/api/v1/stress/1/10000000000000/1>
+Stressing:
+  -> iteration1 completed (1/1 of 1)
+
+Result:
+{
+  "count": 1,
+  "min": 15.292,
+  "max": 15.292,
+  "mean": 15.292,
+  "std": 0
+}
+Probando con 100000000000000: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 1
+  - Delay: 1
+  - URL: <http://localhost:8080/api/v1/stress/1/100000000000000/1>
+Stressing:
+  -> iteration1 completed (1/1 of 1)
+
+Result:
+{
+  "count": 1,
+  "min": 20.909,
+  "max": 20.909,
+  "mean": 20.909,
+  "std": 0
+}
+Probando con 1000000000000000: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 1
+  - Delay: 1
+  - URL: <http://localhost:8080/api/v1/stress/1/1000000000000000/1>
+Stressing:
+  -> iteration1 completed (1/1 of 1)
+
+Result:
+{
+  "count": 1,
+  "min": 13.974,
+  "max": 13.974,
+  "mean": 13.974,
+  "std": 0
+}
+Probando con 10000000000000000: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 1
+  - Delay: 1
+  - URL: <http://localhost:8080/api/v1/stress/1/10000000000000000/1>
+Stressing:
+  -> iteration1 completed (1/1 of 1)
+
+Result:
+{
+  "count": 1,
+  "min": 46.633,
+  "max": 46.633,
+  "mean": 46.633,
+  "std": 0
+}
+Probando con 100000000000000000: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 1
+  - Delay: 1
+  - URL: <http://localhost:8080/api/v1/stress/1/100000000000000000/1>
+Stressing:
+  -> iteration1 completed (1/1 of 1)
+
+Result:
+{
+  "count": 1,
+  "min": 15.905,
+  "max": 15.905,
+  "mean": 15.905,
+  "std": 0
+}
+Probando con 1000000000000000000: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 1
+  - Delay: 1
+  - URL: <http://localhost:8080/api/v1/stress/1/1000000000000000000/1>
+Stressing:
+  -> iteration1 completed (1/1 of 1)
+
+Result:
+{
+  "count": 1,
+  "min": 16.401,
+  "max": 16.401,
+  "mean": 16.401,
+  "std": 0
+}
+Probando con 10000000000000000000: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 1
+  - Delay: 1
+  - URL: <http://localhost:8080/api/v1/stress/1/10000000000000000000/1>
+Stressing:
+  -> iteration1 completed (1/1 of 1)
+
+Result:
+{
+  "count": 1,
+  "min": 14.179,
+  "max": 14.179,
+  "mean": 14.179,
+  "std": 0
+}

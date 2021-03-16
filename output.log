@@ -1,0 +1,111 @@
+
+> bin-pack-api@1.0.0 start /Users/rodri/Documents/DEVOPS/DO1819-binpack-api
+> node index.js
+
+2021-03-16T11:36:32.742Z [37minfo[39m: Valid specification file
+2021-03-16T11:36:32.754Z [37minfo[39m: Specification file dereferenced
+2021-03-16T11:36:32.754Z [37minfo[39m: No servers found in spec file, added relative server for testing in Swagger UI
+App running at http://localhost:8080
+________________________________________________________________
+API docs (Swagger UI) available on http://localhost:8080/docs
+________________________________________________________________
+2021-03-16T11:36:34.218Z [37minfo[39m: Requested method-url pair: get - /api/v1/stress/1/1/1
+2021-03-16T11:36:34.219Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:34.220Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:34.221Z [37minfo[39m: Valid parameter on request
+Tiempo de ejecución con : [{"id":"nBins","value":1},{"id":"maxWidth","value":1},{"id":"maxHeight","value":1}]: 0.68
+2021-03-16T11:36:35.949Z [37minfo[39m: Requested method-url pair: get - /api/v1/stress/1/10/1
+2021-03-16T11:36:35.949Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:35.949Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:35.949Z [37minfo[39m: Valid parameter on request
+Tiempo de ejecución con : [{"id":"nBins","value":1},{"id":"maxWidth","value":10},{"id":"maxHeight","value":1}]: 0.209
+2021-03-16T11:36:37.923Z [37minfo[39m: Requested method-url pair: get - /api/v1/stress/1/100/1
+2021-03-16T11:36:37.924Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:37.924Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:37.924Z [37minfo[39m: Valid parameter on request
+Tiempo de ejecución con : [{"id":"nBins","value":1},{"id":"maxWidth","value":100},{"id":"maxHeight","value":1}]: 0.113
+2021-03-16T11:36:39.737Z [37minfo[39m: Requested method-url pair: get - /api/v1/stress/1/1000/1
+2021-03-16T11:36:39.737Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:39.737Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:39.738Z [37minfo[39m: Valid parameter on request
+Tiempo de ejecución con : [{"id":"nBins","value":1},{"id":"maxWidth","value":1000},{"id":"maxHeight","value":1}]: 0.117
+2021-03-16T11:36:41.500Z [37minfo[39m: Requested method-url pair: get - /api/v1/stress/1/10000/1
+2021-03-16T11:36:41.500Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:41.501Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:41.501Z [37minfo[39m: Valid parameter on request
+Tiempo de ejecución con : [{"id":"nBins","value":1},{"id":"maxWidth","value":10000},{"id":"maxHeight","value":1}]: 0.132
+2021-03-16T11:36:43.218Z [37minfo[39m: Requested method-url pair: get - /api/v1/stress/1/100000/1
+2021-03-16T11:36:43.219Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:43.219Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:43.220Z [37minfo[39m: Valid parameter on request
+Tiempo de ejecución con : [{"id":"nBins","value":1},{"id":"maxWidth","value":100000},{"id":"maxHeight","value":1}]: 0.112
+2021-03-16T11:36:44.889Z [37minfo[39m: Requested method-url pair: get - /api/v1/stress/1/1000000/1
+2021-03-16T11:36:44.890Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:44.891Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:44.891Z [37minfo[39m: Valid parameter on request
+Tiempo de ejecución con : [{"id":"nBins","value":1},{"id":"maxWidth","value":1000000},{"id":"maxHeight","value":1}]: 0.119
+2021-03-16T11:36:46.500Z [37minfo[39m: Requested method-url pair: get - /api/v1/stress/1/10000000/1
+2021-03-16T11:36:46.500Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:46.500Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:46.500Z [37minfo[39m: Valid parameter on request
+Tiempo de ejecución con : [{"id":"nBins","value":1},{"id":"maxWidth","value":10000000},{"id":"maxHeight","value":1}]: 0.174
+2021-03-16T11:36:48.123Z [37minfo[39m: Requested method-url pair: get - /api/v1/stress/1/100000000/1
+2021-03-16T11:36:48.123Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:48.123Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:48.123Z [37minfo[39m: Valid parameter on request
+Tiempo de ejecución con : [{"id":"nBins","value":1},{"id":"maxWidth","value":100000000},{"id":"maxHeight","value":1}]: 0.115
+2021-03-16T11:36:51.224Z [37minfo[39m: Requested method-url pair: get - /api/v1/stress/1/1000000000/1
+2021-03-16T11:36:51.226Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:51.226Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:51.226Z [37minfo[39m: Valid parameter on request
+Tiempo de ejecución con : [{"id":"nBins","value":1},{"id":"maxWidth","value":1000000000},{"id":"maxHeight","value":1}]: 0.111
+2021-03-16T11:36:53.408Z [37minfo[39m: Requested method-url pair: get - /api/v1/stress/1/10000000000/1
+2021-03-16T11:36:53.408Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:53.409Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:53.409Z [37minfo[39m: Valid parameter on request
+Tiempo de ejecución con : [{"id":"nBins","value":1},{"id":"maxWidth","value":10000000000},{"id":"maxHeight","value":1}]: 0.164
+2021-03-16T11:36:55.046Z [37minfo[39m: Requested method-url pair: get - /api/v1/stress/1/100000000000/1
+2021-03-16T11:36:55.046Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:55.047Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:55.047Z [37minfo[39m: Valid parameter on request
+Tiempo de ejecución con : [{"id":"nBins","value":1},{"id":"maxWidth","value":100000000000},{"id":"maxHeight","value":1}]: 0.141
+2021-03-16T11:36:56.733Z [37minfo[39m: Requested method-url pair: get - /api/v1/stress/1/1000000000000/1
+2021-03-16T11:36:56.733Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:56.733Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:56.733Z [37minfo[39m: Valid parameter on request
+Tiempo de ejecución con : [{"id":"nBins","value":1},{"id":"maxWidth","value":1000000000000},{"id":"maxHeight","value":1}]: 0.118
+2021-03-16T11:36:58.384Z [37minfo[39m: Requested method-url pair: get - /api/v1/stress/1/10000000000000/1
+2021-03-16T11:36:58.385Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:58.385Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:36:58.385Z [37minfo[39m: Valid parameter on request
+Tiempo de ejecución con : [{"id":"nBins","value":1},{"id":"maxWidth","value":10000000000000},{"id":"maxHeight","value":1}]: 0.105
+2021-03-16T11:37:00.008Z [37minfo[39m: Requested method-url pair: get - /api/v1/stress/1/100000000000000/1
+2021-03-16T11:37:00.009Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:37:00.009Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:37:00.009Z [37minfo[39m: Valid parameter on request
+Tiempo de ejecución con : [{"id":"nBins","value":1},{"id":"maxWidth","value":100000000000000},{"id":"maxHeight","value":1}]: 0.073
+2021-03-16T11:37:01.735Z [37minfo[39m: Requested method-url pair: get - /api/v1/stress/1/1000000000000000/1
+2021-03-16T11:37:01.735Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:37:01.736Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:37:01.736Z [37minfo[39m: Valid parameter on request
+Tiempo de ejecución con : [{"id":"nBins","value":1},{"id":"maxWidth","value":1000000000000000},{"id":"maxHeight","value":1}]: 0.065
+2021-03-16T11:37:05.024Z [37minfo[39m: Requested method-url pair: get - /api/v1/stress/1/10000000000000000/1
+2021-03-16T11:37:05.025Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:37:05.026Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:37:05.026Z [37minfo[39m: Valid parameter on request
+Tiempo de ejecución con : [{"id":"nBins","value":1},{"id":"maxWidth","value":10000000000000000},{"id":"maxHeight","value":1}]: 0.076
+2021-03-16T11:37:07.962Z [37minfo[39m: Requested method-url pair: get - /api/v1/stress/1/100000000000000000/1
+2021-03-16T11:37:07.962Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:37:07.962Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:37:07.962Z [37minfo[39m: Valid parameter on request
+Tiempo de ejecución con : [{"id":"nBins","value":1},{"id":"maxWidth","value":100000000000000000},{"id":"maxHeight","value":1}]: 0.067
+2021-03-16T11:37:10.403Z [37minfo[39m: Requested method-url pair: get - /api/v1/stress/1/1000000000000000000/1
+2021-03-16T11:37:10.403Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:37:10.403Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:37:10.404Z [37minfo[39m: Valid parameter on request
+Tiempo de ejecución con : [{"id":"nBins","value":1},{"id":"maxWidth","value":1000000000000000000},{"id":"maxHeight","value":1}]: 0.063
+2021-03-16T11:37:12.745Z [37minfo[39m: Requested method-url pair: get - /api/v1/stress/1/10000000000000000000/1
+2021-03-16T11:37:12.746Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:37:12.746Z [37minfo[39m: Valid parameter on request
+2021-03-16T11:37:12.746Z [37minfo[39m: Valid parameter on request
+Tiempo de ejecución con : [{"id":"nBins","value":1},{"id":"maxWidth","value":10000000000000000000},{"id":"maxHeight","value":1}]: 0.065
