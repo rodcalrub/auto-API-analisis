@@ -1,0 +1,144 @@
+
+Probando con 1: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 10
+  - Delay: 1
+  - URL: <http://ec2-52-50-175-37.eu-west-1.compute.amazonaws.com/api/v1/stress/1/1/1>
+Stressing:
+  -> iteration2 completed (1/10 of 10)
+  -> iteration1 completed (2/10 of 10)
+  -> iteration4 completed (3/10 of 10)
+  -> iteration3 completed (4/10 of 10)
+  -> iteration5 completed (5/10 of 10)
+  -> iteration7 completed (6/10 of 10)
+  -> iteration6 completed (7/10 of 10)
+  -> iteration9 completed (8/10 of 10)
+  -> iteration10 completed (9/10 of 10)
+  -> iteration8 completed (10/10 of 10)
+
+Result:
+{
+  "count": 10,
+  "min": 232.032,
+  "max": 673.902,
+  "mean": 457.607,
+  "std": 154.116
+}
+Probando con 10: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 10
+  - Delay: 1
+  - URL: <http://ec2-52-50-175-37.eu-west-1.compute.amazonaws.com/api/v1/stress/10/1/1>
+Stressing:
+  -> iteration1 completed (1/10 of 10)
+  -> iteration2 completed (2/10 of 10)
+  -> iteration3 completed (3/10 of 10)
+  -> iteration5 completed (4/10 of 10)
+  -> iteration7 completed (5/10 of 10)
+  -> iteration4 completed (6/10 of 10)
+  -> iteration6 completed (7/10 of 10)
+  -> iteration8 completed (8/10 of 10)
+  -> iteration10 completed (9/10 of 10)
+  -> iteration9 completed (10/10 of 10)
+
+Result:
+{
+  "count": 10,
+  "min": 129.125,
+  "max": 519.133,
+  "mean": 330.543,
+  "std": 132.823
+}
+Probando con 100: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 10
+  - Delay: 1
+  - URL: <http://ec2-52-50-175-37.eu-west-1.compute.amazonaws.com/api/v1/stress/100/1/1>
+Stressing:
+  -> iteration3 completed (1/10 of 10)
+  -> iteration2 completed (2/10 of 10)
+  -> iteration5 completed (3/10 of 10)
+  -> iteration4 completed (4/10 of 10)
+  -> iteration1 completed (5/10 of 10)
+  -> iteration6 completed (6/10 of 10)
+  -> iteration7 completed (7/10 of 10)
+  -> iteration10 completed (8/10 of 10)
+  -> iteration8 completed (9/10 of 10)
+  -> iteration9 completed (10/10 of 10)
+
+Result:
+{
+  "count": 10,
+  "min": 122.339,
+  "max": 602.97,
+  "mean": 373.958,
+  "std": 156.465
+}
+Probando con 1000: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 10
+  - Delay: 1
+  - URL: <http://ec2-52-50-175-37.eu-west-1.compute.amazonaws.com/api/v1/stress/1000/1/1>
+Stressing:
+  -> iteration5 completed (1/10 of 10)
+  -> iteration3 completed (2/10 of 10)
+  -> iteration2 completed (3/10 of 10)
+  -> iteration1 completed (4/10 of 10)
+  -> iteration8 completed (5/10 of 10)
+  -> iteration4 completed (6/10 of 10)
+  -> iteration10 completed (7/10 of 10)
+  -> iteration6 completed (8/10 of 10)
+  -> iteration7 completed (9/10 of 10)
+  -> iteration9 completed (10/10 of 10)
+
+Result:
+{
+  "count": 10,
+  "min": 205.711,
+  "max": 1552.05,
+  "mean": 926.975,
+  "std": 461.729
+}
+Probando con 10000: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 10
+  - Delay: 1
+  - URL: <http://ec2-52-50-175-37.eu-west-1.compute.amazonaws.com/api/v1/stress/10000/1/1>
+Stressing:
+  -> iteration2 completed (1/10 of 10)
+  -> iteration1 completed (2/10 of 10)
+  -> iteration4 completed (3/10 of 10)
+  -> iteration3 completed (4/10 of 10)
+  -> iteration7 completed (5/10 of 10)
+  -> iteration10 completed (6/10 of 10)
+  -> iteration8 completed (7/10 of 10)
+  -> iteration6 completed (8/10 of 10)
+  -> iteration5 completed (9/10 of 10)
+  -> iteration9 completed (10/10 of 10)
+
+Result:
+{
+  "count": 10,
+  "min": 10488.101,
+  "max": 26997.729,
+  "mean": 22416.119,
+  "std": 4645.473
+}
+Probando con 100000: 
+\n
+Stress configuration:
+  - Concurrent users: 1
+  - Iterations: 10
+  - Delay: 1
+  - URL: <http://ec2-52-50-175-37.eu-west-1.compute.amazonaws.com/api/v1/stress/100000/1/1>
+Stressing:

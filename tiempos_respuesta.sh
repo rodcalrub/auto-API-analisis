@@ -6,7 +6,7 @@ do
   echo "Probando con $i: " >> output-for.log
   echo "Probando con $i"
   echo "\n" >> output-for.log
-  npx apipecker 1 $1 1 http://do1819-binpack-api-v2.herokuapp.com/api/v1/stress/1/1/$i >> output-for.log
+  npx apipecker 1 $1 1 http://ec2-34-248-34-10.eu-west-1.compute.amazonaws.com/api/v1/stress/1/1/$i >> output-for.log
   #echo "Acabando de probar con $i"
   i=$(echo "$i*10" | bc )
   value=$(echo $i | wc -c)
